@@ -1,19 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import header from './components/header.vue'
 </script>
 
 <template>
-  <header>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-  </header>
 
-  <main>
-    
-  </main>
-
+  <!--<RouterLink to="/">Home</RouterLink>-->
+  <!-- <RouterLink to="/about">About</RouterLink> -->
   <RouterView />
 </template>
 
