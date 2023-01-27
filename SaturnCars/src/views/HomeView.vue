@@ -1,13 +1,45 @@
 <script>
+
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, Autoplay } from 'swiper';
+// Import Swiper styles
+import 'swiper/css';
+
+export default {
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
+    setup() {
+        const onSwiper = (swiper) => {
+            console.log(swiper);
+        };
+        const onSlideChange = () => {
+            console.log('slide change');
+        };
+        return {
+            modules: [Navigation, Autoplay],
+            onSwiper,
+            onSlideChange,
+        };
+    },
+};
 </script>
 
 <template>
     <!-- slider -->
+    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :space-between="50" :navigation="true" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide> <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        
+    </swiper>
     <!-- cards -->
     <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
             </a>
             <div class="p-6">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
@@ -21,7 +53,7 @@
         </div>
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
             </a>
             <div class="p-6">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
@@ -35,7 +67,7 @@
         </div>
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
             </a>
             <div class="p-6">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
