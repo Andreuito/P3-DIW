@@ -2,9 +2,12 @@
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation, Autoplay } from 'swiper';
+import { Navigation, Autoplay, Scrollbar } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import 'swiper/css/scrollbar'
 
 export default {
     components: {
@@ -19,7 +22,7 @@ export default {
             console.log('slide change');
         };
         return {
-            modules: [Navigation, Autoplay],
+            modules: [Navigation, Autoplay, Scrollbar],
             onSwiper,
             onSlideChange,
         };
@@ -30,8 +33,8 @@ export default {
 <template>
     <!-- slider -->
     <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :space-between="50" :navigation="true"
-        @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide> <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        :scrollbar="true" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide><img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
         <swiper-slide> <img class="rounded-t-lg" src="img/hakon-sataoen-qyfco1nfMtg-unsplash.jpg"
                 alt="" /></swiper-slide>
         <swiper-slide> <img class="rounded-t-lg" src="img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="" /></swiper-slide>
@@ -122,12 +125,18 @@ export default {
             </div>
         </div>
     </div>
-    <!--slider-->
-    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :space-between="50" :navigation="true"
-        @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide> <img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-t-lg" src="img/hakon-sataoen-qyfco1nfMtg-unsplash.jpg"
-                alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-t-lg" src="img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="" /></swiper-slide>
+    <!--Multiple slider-->
+    <swiper :modules="modules" :slides-per-view="3" :autoplay="true" :space-between="50" :navigation="true"
+        :scrollbar="true" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide> <img class="rounded-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/hakon-sataoen-qyfco1nfMtg-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/alex-suprun-A53o1drQS2k-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/chris-nguyen-aTX_bRaOZnA-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/dima-panyukov-DwxlhTvC16Q-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/erik-mclean-ZRns2R5azu0-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/josh-berquist-_4sWbzH5fp8-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/kenny-eliason-FcyipqujfGg-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/marek-pospisil-oUBjd22gF6w-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="rounded-lg" src="img/peter-broomfield-m3m-lnR90uM-unsplash.jpg" alt="imageCar" /></swiper-slide>
     </swiper>
 </template>
