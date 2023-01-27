@@ -5,10 +5,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
 
 
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    { name: 'Home', href: '#', current: true },
+    { name: 'Brands', href: '#', current: false },
+    { name: 'Shop', href: '#', current: false },
+    { name: 'Renting', href: '#', current: false },
+    { name: 'Contact us', href: '#', current: false },
 ]
 </script>
 
@@ -29,11 +30,9 @@ const navigation = [
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 items-center">
-                            <img class="block h-8 w-auto lg:hidden"
-                                src="img/logoRemasteredW.PNG"
+                            <img class="block h-8 w-auto lg:hidden" src="img/logoRemaSteredB-removebg-preview.png"
                                 alt="SaturnCars" />
-                            <img class="hidden h-8 w-auto lg:block"
-                                src="img/logoRemasteredW.PNG"
+                            <img class="hidden h-8 w-auto lg:block" src="img/logoRemaSteredB-removebg-preview.png"
                                 alt="SaturnCars" />
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
@@ -46,21 +45,13 @@ const navigation = [
                     </div>
                     <div
                         class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                        <button type="button"
-                            class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                            <span class="sr-only">View notifications</span>
-                            <BellIcon class="h-6 w-6" aria-hidden="true" />
-                        </button>
-
                         <!-- Profile dropdown -->
                         <Menu as="div" class="relative ml-3">
                             <div>
                                 <MenuButton
                                     class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                     <span class="sr-only">Open user menu</span>
-                                    <img class="h-8 w-8 rounded-full"
-                                        src="img/pfp.PNG"
-                                        alt="" />
+                                    <img class="h-8 w-8 rounded-full" src="img/pfp2.png" alt="" />
                                 </MenuButton>
                             </div>
                             <transition enter-active-class="transition ease-out duration-100"
@@ -113,7 +104,8 @@ const navigation = [
                 <div class="flex justify-center items-center h-full">
                     <div class="text-center text-white px-6 md:px-12">
                         <h1 class="text-5xl font-bold mt-0 mb-6">Saturn Cars</h1>
-                        <h3 class="text-3xl font-bold mb-8">We know that we can't go to Saturn, but we can give you one</h3>
+                        <h3 class="text-3xl font-bold mb-8">We know that we can't go to Saturn, but we can give you one
+                        </h3>
                         <button type="button"
                             class="inline-block px-6 py-2.5 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
