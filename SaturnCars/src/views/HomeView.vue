@@ -32,12 +32,12 @@ export default {
 
 <template>
     <!-- slider -->
-    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :space-between="50" :navigation="true"
+    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :navigation="true" :loop="true"
         :scrollbar="true" @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide><img class="rounded-t-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-t-lg" src="img/hakon-sataoen-qyfco1nfMtg-unsplash.jpg"
+        <swiper-slide><img class="" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="" src="img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg"
                 alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-t-lg" src="img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="" src="img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="" /></swiper-slide>
     </swiper>
     <!-- cards -->
     <div class="flex justify-center">
@@ -81,62 +81,18 @@ export default {
             </div>
         </div>
     </div>
-    <div class="flex justify-center p-10">
-        <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <div class="w-full h-64 overflow-hidden">
-                <img class="rounded-t-lg" src="img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="" />
-            </div>
-            <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make up the bulk of the card's
-                    content.
-                </p>
-                <button type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-            </div>
-        </div>
-        <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <div class="w-full h-64 overflow-hidden">
-                <img class="rounded-t-lg" src="img/pexels-pixabay-164634.jpg" alt="" />
-            </div>
-            <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make up the bulk of the card's
-                    content.
-                </p>
-                <button type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-            </div>
-        </div>
-        <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <div class="w-full h-64 overflow-hidden">
-                <img class="rounded-t-lg" src="img/pexels-pixabay-164634.jpg" alt="" />
-            </div>
-            <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make up the bulk of the card's
-                    content.
-                </p>
-                <button type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-            </div>
-        </div>
-    </div>
     <!--Multiple slider-->
-    <swiper :modules="modules" :slides-per-view="3" :autoplay="true" :space-between="50" :navigation="true"
+    <swiper :modules="modules" :slides-per-view="3" :autoplay="true" :navigation="true" :loop="true"
         :scrollbar="true" @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide> <img class="rounded-lg" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/hakon-sataoen-qyfco1nfMtg-unsplash.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/alex-suprun-A53o1drQS2k-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/chris-nguyen-aTX_bRaOZnA-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/dima-panyukov-DwxlhTvC16Q-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/erik-mclean-ZRns2R5azu0-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/josh-berquist-_4sWbzH5fp8-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/kenny-eliason-FcyipqujfGg-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/marek-pospisil-oUBjd22gF6w-unsplash.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img class="rounded-lg" src="img/peter-broomfield-m3m-lnR90uM-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img  src="img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img  src="img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
     </swiper>
 </template>
