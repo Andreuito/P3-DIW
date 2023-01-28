@@ -30,9 +30,9 @@ const navigation = [
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 items-center">
-                            <img class="block h-8 w-auto lg:hidden" src="img/logoss-removebg-preview.png"
+                            <img class="block h-8 w-auto lg:hidden" src="src/assets/img/logoss-removebg-preview.png"
                                 alt="SaturnCars" />
-                            <img class="hidden h-8 w-auto lg:block" src="img/logoss-removebg-preview.png"
+                            <img class="hidden h-8 w-auto lg:block" src="src/assets/img/logoss-removebg-preview.png"
                                 alt="SaturnCars" />
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
@@ -51,7 +51,7 @@ const navigation = [
                                 <MenuButton
                                     class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                     <span class="sr-only">Open user menu</span>
-                                    <img class="h-8 w-8 rounded-full" src="img/pfp2.png" alt="" />
+                                    <img class="h-8 w-8 rounded-full" src="src/assets/img/pfp2.png" alt="" />
                                 </MenuButton>
                             </div>
                             <transition enter-active-class="transition ease-out duration-100"
@@ -90,7 +90,7 @@ const navigation = [
         <!-- Background image -->
         <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
     background-position: 50%;
-    background-image: url('img/grahame-jenkins-p7tai9P7H-s-unsplash-edited.jpg');
+    background-image: url('src/assets/img/grahame-jenkins-p7tai9P7H-s-unsplash-edited.jpg');
     height: 350px;
   ">
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"

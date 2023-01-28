@@ -36,10 +36,10 @@ export default {
     <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :navigation="true" :loop="true" :scrollbar="true"
         @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
-            <img class="" src="img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
+            <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
-        <swiper-slide> <img class="" src="img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img class="" src="img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img class="" src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img class="" src="src/assets/img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="imageCar" /></swiper-slide>
     </swiper>
     <!-- cards -->
     <!--    <div class="grid-cols-3 gap-2 m-28 space-y-10">
@@ -107,12 +107,12 @@ export default {
             </p>
         </div>
         <div class="col-span-1">
-            <img class="" src="img/logoRemaSteredB.PNG">
+            <img class="" src="src/assets/img/logoRemaSteredB.PNG">
         </div>
     </div>
     <div class="grid grid-cols-3 gap-2">
         <div class="col-span-1">
-                <img class="" src="img/logoRemaSteredB.PNG">
+                <img class="" src="src/assets/img/logoRemaSteredB.PNG">
             </div>
         <div class="col-span-2 flex flex-col justify-between">
             <h2 class="text-xl font-semibold">
@@ -135,12 +135,12 @@ export default {
             </p>
         </div>
         <div class="col-span-1">
-            <img class="" src="img/logoRemaSteredB.PNG">
+            <img class="" src="src/assets/img/logoRemaSteredB.PNG">
         </div>
     </div>
     <div class="grid grid-cols-3 gap-2">
         <div class="col-span-1">
-                <img class="" src="img/logoRemaSteredB.PNG">
+                <img class="" src="src/assets/img/logoRemaSteredB.PNG">
             </div>
         <div class="col-span-2 flex flex-col justify-between">
             <h2 class="text-xl font-semibold">
@@ -163,12 +163,12 @@ export default {
             </p>
         </div>
         <div class="col-span-1">
-            <img class="" src="img/logoRemaSteredB.PNG">
+            <img class="" src="src/assets/img/logoRemaSteredB.PNG">
         </div>
     </div>
     <div class="grid grid-cols-3 gap-2">
         <div class="col-span-1">
-                <img class="" src="img/logoRemaSteredB.PNG">
+                <img class="" src="src/assets/img/logoRemaSteredB.PNG">
             </div>
         <div class="col-span-2 flex flex-col justify-between">
             <h2 class="text-xl font-semibold">
@@ -183,15 +183,15 @@ export default {
     <!--Multiple slider-->
     <swiper :modules="modules" :slides-per-view="4" :autoplay="true" :navigation="true" :loop="true" :scrollbar="true"
         @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide> <img src="img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img src="img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg" alt="" /></swiper-slide>
-        <swiper-slide> <img src="img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-        <swiper-slide> <img src="img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
     </swiper>
 </template>
