@@ -6,7 +6,7 @@ const navigation = [
 
 
     { name: 'Home', href: '#', current: true },
-    { name: 'Brands', href: '#', current: false },
+    { name: 'Models', href: '#', current: false },
     { name: 'Shop', href: '#', current: false },
     { name: 'Renting', href: '#', current: false },
     { name: 'Contact us', href: '#', current: false },
@@ -30,9 +30,9 @@ const navigation = [
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 items-center">
-                            <img class="block h-8 w-auto lg:hidden" src="img/logoRemaSteredB-removebg-preview.png"
+                            <img class="block h-8 w-auto lg:hidden" src="img/logoss-removebg-preview.png"
                                 alt="SaturnCars" />
-                            <img class="hidden h-8 w-auto lg:block" src="img/logoRemaSteredB-removebg-preview.png"
+                            <img class="hidden h-8 w-auto lg:block" src="img/logoss-removebg-preview.png"
                                 alt="SaturnCars" />
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
@@ -64,17 +64,11 @@ const navigation = [
                                     class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <MenuItem v-slot="{ active }">
                                     <a href="#"
-                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Your
-                                        Profile</a>
+                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sing in</a>
                                     </MenuItem>
                                     <MenuItem v-slot="{ active }">
                                     <a href="#"
-                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Settings</a>
-                                    </MenuItem>
-                                    <MenuItem v-slot="{ active }">
-                                    <a href="#"
-                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sign
-                                        out</a>
+                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Register</a>
                                     </MenuItem>
                                 </MenuItems>
                             </transition>
