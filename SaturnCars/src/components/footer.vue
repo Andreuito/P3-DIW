@@ -1,7 +1,7 @@
 <template>
     <footer class="text-center bg-gray-800 text-white" aria-labelledby="footerHeading">
-        <div class="container px-6 pt-6">
-            <img class="h-30" src="src/assets/img/logo-black-removebg-preview.png" alt="Company name">
+        <div class="container flex flex-col justify-center items-center px-6 pt-6">
+            <img class="w-96 h-5/6" src="src/assets/img/logoRemaSteredB-removebg-preview.png" alt="Company name">
             <div class="flex justify-center mb-6">
                 <a href="#!" type="button"
                     class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
@@ -72,7 +72,7 @@
                 </p>
             </div>
 
-            <div class="grid lg:grid-cols-2 md:grid-cols-2">
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 space-x-10">
 
                 <div class="mb-6">
                     <h5 class="uppercase font-bold mb-2.5">Links</h5>
