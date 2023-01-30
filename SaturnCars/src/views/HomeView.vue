@@ -37,7 +37,7 @@ export default {
         @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide class="flex flex-col place-content-center relative">
             <div class="absolute text-center w-full mb-96">
-                <p class="text-white text-base mb-4 mt-0">lola tu puta madre</p>
+                <p class="text-white text-base mb-4 mt-0">hola</p>
             </div>
             <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>

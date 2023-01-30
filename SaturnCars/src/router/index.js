@@ -5,15 +5,40 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/HomeView',
-      name: 'home',
+      path: '/Home',
+      name: 'Home',
       component: HomeView
     },
     {
-      path: '/models',
-      name: 'models',
+      path: '/Models',
+      name: 'Models',
       component: () => import('../views/ModelsView.vue')
-    }
+    },
+    {
+      path: '/Login',
+      name: 'Login',
+      component: () => import('../views/LoginView.vue')
+    },
+    {
+      path: '/Register',
+      name: 'Register',
+      component: () => import('../views/RegisterView.vue')
+    },
+    {
+      path: '/Renting',
+      name: 'Renting',
+      component: () => import('../views/RentingView.vue')
+    },
+    {
+      path: '/Shop',
+      name: 'Shop',
+      component: () => import('../views/ShopView.vue')
+    },
+    {
+      path: '/Contact us',
+      name: 'Contact us',
+      component: () => import('../views/ContactUsView.vue')
+    },
   ]
 })
 

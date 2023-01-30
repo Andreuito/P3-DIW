@@ -5,11 +5,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
 
 
-    { name: 'Home', href: '/HomeView', current: true },
+    { name: 'Home', href: '/Home', current: true },
     { name: 'Models', href: '/models', current: false },
-    { name: 'Shop', href: '#', current: false },
-    { name: 'Renting', href: '#', current: false },
-    { name: 'Contact us', href: '#', current: false },
+    { name: 'Shop', href: '/Shop', current: false },
+    { name: 'Renting', href: '/Renting', current: false },
+    { name: 'Contact us', href: '/Contact us', current: false },
 ]
 </script>
 
@@ -64,11 +64,11 @@ const navigation = [
                                 <MenuItems
                                     class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <MenuItem v-slot="{ active }">
-                                    <a href="#"
+                                    <a href="/Login"
                                         :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sing in</a>
                                     </MenuItem>
                                     <MenuItem v-slot="{ active }">
-                                    <a href="#"
+                                    <a href="/Register"
                                         :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Register</a>
                                     </MenuItem>
                                 </MenuItems>
