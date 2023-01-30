@@ -35,10 +35,16 @@ export default {
     <!-- slider -->
     <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true"
         @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide>
+        <swiper-slide class="flex flex-col place-content-center relative">
+            <div class="absolute text-center w-full mb-96">
+                <p class="text-white text-base mb-4 mt-0">lola tu puta madre</p>
+            </div>
             <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
-        <swiper-slide> <img class="" src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg" alt="" /></swiper-slide>
+        <swiper-slide> 
+            <img class="" src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg" alt="" /> 
+            <!-- <iframe class="aspec-w-3 aspec-h-2" src="https://www.youtube.com/watch?v=ndkcewDcW7o" autoplay loop muted></iframe> -->
+        </swiper-slide>
         <swiper-slide> <img class="" src="src/assets/img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="imageCar" /></swiper-slide>
     </swiper>
     <!-- title -->
