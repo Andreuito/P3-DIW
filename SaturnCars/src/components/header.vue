@@ -9,7 +9,7 @@ const navigation = [
     { name: 'Models', href: '/models', current: false },
     { name: 'Shop', href: '/Shop', current: false },
     { name: 'Renting', href: '/Renting', current: false },
-    { name: 'Contact us', href: '/Contact us', current: false },
+    { name: 'Contact us', href: '/ContactUs', current: false },
 ]
 </script>
 
