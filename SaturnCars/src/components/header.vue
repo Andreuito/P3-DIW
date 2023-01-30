@@ -5,7 +5,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
 
 
-    { name: 'Home', href: '/Home', current: true },
+    { name: 'Home', href: '/', current: true },
     { name: 'Models', href: '/models', current: false },
     { name: 'Shop', href: '/Shop', current: false },
     { name: 'Renting', href: '/Renting', current: false },

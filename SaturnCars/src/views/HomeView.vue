@@ -1,8 +1,9 @@
-<script src="">
+<script>
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation, Pagination, Autoplay, Scrollbar } from 'swiper';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
