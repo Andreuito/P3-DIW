@@ -48,7 +48,7 @@ export default {
         </h2>
     </div>
     <!-- cards -->
-    <div class="grid grid-cols-2 gap-2 m-28 space-y-4">
+    <div class="grid sm:grid-cols-2 gap-2 m-28 space-y-4 grid-cols-1">
         <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
             <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                 src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
