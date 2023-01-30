@@ -36,17 +36,24 @@ export default {
     <!-- slider -->
     <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true"
         @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide class="flex flex-col place-content-center relative">
-            <div class="absolute text-center w-full mb-96">
-                <p class="text-white text-base mb-4 mt-0">hola</p>
+        <swiper-slide >
+            <div class="absolute text-center w-full">
+                <p class="text-black text-7xl font-bold mt-20 mb-96">Model Saturn Z</p>
             </div>
             <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
-        <swiper-slide> 
-            <img class="" src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited2.jpg" alt="" /> 
-            <!-- <iframe class="aspec-w-3 aspec-h-2" src="https://www.youtube.com/watch?v=ndkcewDcW7o" autoplay loop muted></iframe> -->
+        <swiper-slide>
+            <div class="absolute text-center w-full">
+                <p class="text-white text-7xl font-bold mt-20 mb-auto">Model Saturn X</p>
+            </div>
+            <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" /> 
         </swiper-slide>
-        <swiper-slide> <img class="" src="src/assets/img/olav-tvedt-6lSBynPRaAQ-unsplash.jpg" alt="imageCar" /></swiper-slide>
+        <swiper-slide>
+            <div class="absolute text-center w-full">
+                <p class="text-white text-7xl font-bold mt-10 mb-auto">Model Saturn Y</p>
+            </div>
+            <img class="" src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited2.jpg" alt="imageCar" />
+        </swiper-slide>
     </swiper>
     <!-- title -->
     <div class="flex justify-center mt-10 ">
