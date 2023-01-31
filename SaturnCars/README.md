@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Web pages references
+
+Huyndai.com, Tesla.com, Ford.com
