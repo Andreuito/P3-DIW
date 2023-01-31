@@ -62,7 +62,7 @@ export default {
         </h2>
     </div>
     <!-- cards -->
-    <div class="grid sm:grid-cols-2 gap-2 m-28 space-y-4 grid-cols-1">
+    <div class="grid sm:grid-cols-2 gap-2 justify-center m-28 grid-cols-1">
         <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
             <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                 src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -141,6 +141,10 @@ export default {
             <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                 src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
         </div>
+    </div>
+    <!-- title for bottom slider -->
+    <div class="flex justify-center mt-10 mb-10">
+        <h1 class="text-5xl font-bold text-gray-900">Our Cars</h1>
     </div>
     <!--Multiple slider-->
     <div class="hidden sm:flex">
