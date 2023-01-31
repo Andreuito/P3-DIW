@@ -142,6 +142,10 @@ export default {
                 src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
         </div>
     </div>
+    <!-- title for bottom slider -->
+    <div class="flex justify-center mt-10 mb-10">
+        <h1 class="text-5xl font-bold text-gray-900">Our Cars</h1>
+    </div>
     <!--Multiple slider-->
     <div class="hidden sm:flex">
         <swiper :modules="modules" :slides-per-view="4" :autoplay="true" :loop="true" :scrollbar="true"

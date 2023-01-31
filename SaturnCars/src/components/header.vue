@@ -1,22 +1,42 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
 
+    {
+        name: 'Home',
+        href: '/',
+        current: true
+    },
+    {
+        name: 'Models',
+        href: '/models',
+        current: false
+    },
 
-    { name: 'Home', href: '/', current: true },
-    { name: 'Models', href: '/models', current: false },
-    { name: 'Shop', href: '/Shop', current: false },
-    { name: 'Renting', href: '/Renting', current: false },
-    { name: 'Contact us', href: '/ContactUs', current: false },
+    {
+        name: 'Shop',
+        href: '/Shop',
+        current: false
+    },
+    {
+        name: 'Renting',
+        href: '/Renting',
+        current: false
+    },
+    {
+        name: 'Contact us',
+        href: '/ContactUs',
+        current: false
+    },
+
 ]
 </script>
 
 <template>
     <header>
         <!-- Navbar -->
-        <!-- sm:bg-transparent sm:fixed sm:top-0 sm:z-50 -->
         <Disclosure as="nav" class="bg-gray-800 sm:fixed sm:top-0 sm:z-50 sm:w-full sm:bg-opacity-70" v-slot="{ open }">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div class="relative flex h-16 items-center justify-between">
@@ -65,7 +85,8 @@ const navigation = [
                                     class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <MenuItem v-slot="{ active }">
                                     <a href="/Login"
-                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sing in</a>
+                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sing
+                                        in</a>
                                     </MenuItem>
                                     <MenuItem v-slot="{ active }">
                                     <a href="/Register"
