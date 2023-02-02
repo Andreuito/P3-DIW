@@ -34,9 +34,9 @@ export default {
 
 <template>
     <!-- slider -->
-    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true"
-        @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide >
+    <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true" @swiper="onSwiper"
+        @slideChange="onSlideChange">
+        <swiper-slide>
             <div class="absolute text-center w-full">
                 <p class="text-white sm:text-black text-7xl font-bold mt-20 mb-96">Model Saturn Z</p>
             </div>
@@ -46,7 +46,7 @@ export default {
             <div class="absolute text-center w-full">
                 <p class="text-white text-7xl font-bold mt-20 mb-auto">Model Saturn X</p>
             </div>
-            <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" /> 
+            <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
@@ -57,7 +57,7 @@ export default {
     </swiper>
     <!-- title -->
     <div class="flex text-center sm:justify-center mt-10 ">
-        <h2 class="text-5xl font-bold mt-0">
+        <h2 class="text-6xl font-bold mt-0">
             Most popular Saturn cars
         </h2>
     </div>
@@ -157,7 +157,7 @@ export default {
 
     <!-- title for bottom slider -->
     <div class="flex justify-center mt-10 mb-10">
-        <h1 class="text-5xl font-bold text-gray-900">Our Cars</h1>
+        <h1 class="text-7xl font-bold text-gray-800">Our Cars</h1>
     </div>
 
     <!--Multiple slider-->
@@ -165,15 +165,24 @@ export default {
         <swiper :modules="modules" :slides-per-view="4" :autoplay="true" :loop="true" :scrollbar="true"
             @swiper="onSwiper" @slideChange="onSlideChange">
             <swiper-slide> <img src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg" alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg"
+                    alt="" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
         </swiper>
     </div>
 
@@ -182,15 +191,87 @@ export default {
         <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true"
             @swiper="onSwiper" @slideChange="onSlideChange">
             <swiper-slide> <img src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg" alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg" alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg"
+                    alt="" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
+            <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg"
+                    alt="imageCar" /></swiper-slide>
         </swiper>
+    </div>
+
+    <!--title of us-->
+    <div class="flex items-center flex-col mx-60 my-10">
+        <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">About us</h1>
+        <h3 class="flex justify-center text-5xl p-10 font-bold text-gray-800">Comitted</h3>
+        <p>At Saturn Cars, we always look to the future with a vision of progress. This way of seeing things is what
+            It makes you have a purpose and a commitment to society and the environment. And from there “Committed” was
+            born:
+            a series of initiatives of a social and environmental nature, which puts people at the center of everything
+            our efforts.
+        </p>
+        <img src="/src/assets/img/saturntesla.png" class="w-full h-auto mt-10 rounded-lg  hover:scale-110 transition duration-300 ease-in-out">
+    </div>
+
+    <div class="flex flex-row justify-center ">
+        <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-6">
+                    <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content.
+                    </p>
+                    <h6 class="text-gray-900 text-xl font-medium mb-2">Go in</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-6">
+                    <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content.
+                    </p>
+                    <h6 class="text-gray-900 text-xl font-medium mb-2">Go in</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-6">
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Card title</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content.
+                    </p>
+                    <h6 class="text-gray-900 text-xl font-medium mb-2">Go in</h6>
+                </div>
+            </div>
+        </div>
     </div>
 </template>

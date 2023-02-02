@@ -7,7 +7,7 @@ const navigation = [
     {
         name: 'Home',
         href: '/',
-        current:  false
+        current: false
     },
     {
         name: 'Models',
@@ -59,7 +59,7 @@ const navigation = [
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
                                 <a v-for="item in navigation" :key="item.name" :href="item.href"
-                                    :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']"
+                                :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']"
                                     :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
                             </div>
                         </div>
@@ -110,9 +110,7 @@ const navigation = [
         <!-- Navbar -->
 
         <!-- Background image -->
-        <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
-    background-position: 50%;
-    background-image: url('src/assets/img/grahame-jenkins-p7tai9P7H-s-unsplash-edited.jpg');
+        <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('/src/assets/img/grahame-jenkins-p7tai9P7H-s-unsplash-edited.jpg');
     height: 350px;
   ">
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"

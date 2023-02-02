@@ -72,7 +72,7 @@
                 </p>
             </div>
 
-            <div class="grid lg:grid-cols-2 md:grid-cols-2 space-x-10">
+            <div class="grid grid-cols-2 space-x-10">
 
                 <div class="mb-6">
                     <h5 class="uppercase font-bold mb-2.5">Links</h5>
