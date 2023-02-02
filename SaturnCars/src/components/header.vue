@@ -12,7 +12,7 @@ const navigation = [
     {
         name: 'Models',
         href: '/models',
-        current: false
+        current: true
     },
 
     {
