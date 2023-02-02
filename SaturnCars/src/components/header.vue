@@ -7,12 +7,12 @@ const navigation = [
     {
         name: 'Home',
         href: '/',
-        current: true
+        current:  false
     },
     {
         name: 'Models',
         href: '/models',
-        current: true
+        current: false
     },
 
     {
