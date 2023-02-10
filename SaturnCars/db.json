@@ -1,0 +1,45 @@
+{
+    "cars_cards": [
+        {
+            "id": 1,
+            "model": "",
+            "image": ""
+        },
+
+        {
+            "id": 2,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 6,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 7,
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 8,
+            "model": "",
+            "image": ""
+        }
+    ]
+}

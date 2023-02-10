@@ -11,9 +11,9 @@
                                 <div class="md:p-12 md:mx-6">
                                     <div class="text-center">
                                         <img class="mx-auto w-48"
-                                            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                                            src="src/assets/img/logoRemasteredW.PNG"
                                             alt="logo" />
-                                        <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">We are The Lotus Team</h4>
+                                        <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">More than just cars</h4>
                                     </div>
                                     <form>
                                         <p class="mb-4">Please login to your account</p>
@@ -34,10 +34,10 @@
                                                 style="
                         background: linear-gradient(
                           to right,
-                          #ee7724,
-                          #d8363a,
-                          #dd3675,
-                          #b44593
+                          #1f2937,
+                          #4a7079,
+                          #7697a0,
+                          #1f2937
                         );
                       ">
                                                 Log in
@@ -57,7 +57,7 @@
                             </div>
                             <div class="lg:w-6/12 flex items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
                                 style="
-                background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+                background: linear-gradient(to left , #1f2937, #1f2937, #4a7079, #4a7079 );
               ">
                                 <div class="text-white px-4 py-6 md:p-12 md:mx-6">
                                     <h4 class="text-xl font-semibold mb-6">We are more than just a company</h4>
