@@ -188,8 +188,9 @@ export default {
     <!-- cards -->
     <div class="flex justify-center">
         <div class="grid gap-4 m-10 sm:m-28 tablet:grid-cols-2 grid-cols-1">
-
+        
             <!-- card-1 -->
+        
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -359,7 +360,7 @@ export default {
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash-edited.jpg" alt="" />
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Mechanic</h5>
@@ -375,7 +376,7 @@ export default {
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                    <img class="rounded-t-lg" src="/src/assets/img/pexels-devon-rockola-800629-edited.jpg" alt="" />
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Sports cars</h5>
@@ -390,8 +391,8 @@ export default {
 
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="/src/assets/img/sam-loyd-qy27JnsH9sU-unsplash.jpg" alt="" />
+                <a href="/src/views/RentingView.vue" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img class="rounded-t-lg" src="/src/assets/img/pexels-harrison-haines-2834653-edited2.jpg" alt="" />
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Renting</h5>
