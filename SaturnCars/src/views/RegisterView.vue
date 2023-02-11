@@ -14,7 +14,7 @@
                                         <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">More than just cars</h4>
                                     </div>
                                     <form>
-                                        <p class="mb-4">Do you wanna register in Saturn Cars?</p>
+                                        <p class="mb-4">Do you wanna sign up in Saturn Cars?</p>
                                         <div class="mb-4">
                                             <input type="text"
                                                 class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
@@ -24,11 +24,6 @@
                                             <input type="text"
                                                 class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                                 id="exampleFormControlInput1" placeholder="Enter your name" />
-                                        </div>
-                                        <div class="mb-4">
-                                            <input type="text"
-                                                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                                id="exampleFormControlInput1" placeholder="Enter your last name" />
                                         </div>
                                         <div class="mb-4">
                                             <input type="email"
@@ -47,10 +42,11 @@
                                                 style="
                         background: linear-gradient(
                           to right,
+                          #000000,
                           #1f2937,
                           #4a7079,
-                          #7697a0,
-                          #1f2937
+                          #1f2937,
+                          #000000
                         );
                       ">
                                                 Register
@@ -61,7 +57,7 @@
                             </div>
                             <div class="lg:w-6/12 flex items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
                                 style="
-                background: linear-gradient(to left , #1f2937, #1f2937, #4a7079, #4a7079 );
+                background: linear-gradient(to left , #000000, #1f2937, #1f2937);
               ">
                                 <div class="text-white px-4 py-6 md:p-12 md:mx-6">
                                     <h4 class="text-xl font-semibold mb-6">We are more than just a company</h4>

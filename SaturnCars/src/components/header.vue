@@ -14,12 +14,6 @@ const navigation = [
         href: '/models',
         current: false
     },
-
-    {
-        name: 'Shop',
-        href: '/Shop',
-        current: false
-    },
     {
         name: 'Renting',
         href: '/Renting',

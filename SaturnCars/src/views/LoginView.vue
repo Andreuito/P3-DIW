@@ -34,10 +34,11 @@
                                                 style="
                         background: linear-gradient(
                           to right,
+                          #000000,
                           #1f2937,
                           #4a7079,
-                          #7697a0,
-                          #1f2937
+                          #1f2937,
+                          #000000
                         );
                       ">
                                                 Log in
@@ -57,7 +58,7 @@
                             </div>
                             <div class="lg:w-6/12 flex items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
                                 style="
-                background: linear-gradient(to left , #1f2937, #1f2937, #4a7079, #4a7079 );
+                background: linear-gradient(to left , #000000, #1f2937, #1f2937);
               ">
                                 <div class="text-white px-4 py-6 md:p-12 md:mx-6">
                                     <h4 class="text-xl font-semibold mb-6">We are more than just a company</h4>

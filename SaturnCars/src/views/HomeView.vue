@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 
 // script crud
 //get all cars
-const url = 'http://localhost:5173/HomeView'
+/* const url = 'http://localhost:5173/HomeView'
 
 
 window.onload = async () => {
@@ -133,7 +133,7 @@ async function delete_car(){
 function delete_one_car(){
     const borrar = document.getElementById('resultado')
     borrar.innerHTML = ''
-}
+}*/
 
 export default {
     components: {
@@ -153,7 +153,7 @@ export default {
             onSlideChange,
         };
     },
-};
+}; 
 </script>
 
 <template>
@@ -162,19 +162,19 @@ export default {
         @slideChange="onSlideChange">
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white sm:text-black text-7xl font-bold mt-20 mb-96">Model Saturn Z</p>
+                <p class="text-white sm:text-black text-7xl font-bold mt-20 mb-96">Saturn Ring 1</p>
             </div>
             <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white text-7xl font-bold mt-20 mb-auto">Model Saturn X</p>
+                <p class="text-white text-7xl font-bold mt-20 mb-auto">Saturn Ring 2</p>
             </div>
             <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white text-7xl font-bold mt-10 mb-auto">Model Saturn Y</p>
+                <p class="text-white text-7xl font-bold mt-20 mb-auto">Saturn Ring 3</p>
             </div>
             <img class="" src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited2.jpg" alt="imageCar" />
         </swiper-slide>
@@ -195,26 +195,26 @@ export default {
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 1</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 1</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
             </div>
 
             <!-- card-2 -->
             <div class="flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 2</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 2</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -225,26 +225,26 @@ export default {
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 3</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 3</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
             </div>
 
             <!-- card-4 -->
             <div class="flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 4</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 4</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -255,26 +255,26 @@ export default {
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 5</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 5</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
             </div>
 
             <!-- card-6 -->
             <div class="flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Star 6</h5>
+                    <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 6</h5>
                     <p class="text-gray-700 text-base mb-4">
                         This is a wider card with supporting text below as a natural lead-in to additional content. This
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
