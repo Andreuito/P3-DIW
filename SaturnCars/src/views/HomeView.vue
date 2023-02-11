@@ -181,7 +181,7 @@ export default {
     </swiper>
     <!-- title -->
     <div class="flex text-center sm:justify-center mt-10 ">
-        <h2 class="text-6xl font-bold mt-0">
+        <h2 class="text-6xl font-bold mt-0 text-gray-800">
             Most popular Saturn cars
         </h2>
     </div>
@@ -282,6 +282,8 @@ export default {
         </div>
     </div>
 
+    <div class="border-b border-gray-400 border-solid border-2 mx-20 sm:mx-56"></div>
+
     <!-- title for bottom slider -->
     <div class="flex justify-center mt-10 mb-10">
         <h1 class="text-7xl font-bold text-gray-800">Our Cars</h1>
@@ -339,22 +341,27 @@ export default {
         </swiper>
     </div>
 
-    <!--title of us-->
-    <div class="flex items-center flex-col mx-60 my-10">
+    <!--title of us flex justify-center text-center items-center flex-col mx-60 my-10 sm:w-full w- h-auto-->
+    <div class="flex flex-col sm:justify-center sm:mx-60 sm:my-10 sm:items-center sm:text-center">
         <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">About us</h1>
         <h3 class="flex justify-center text-5xl p-10 font-bold text-gray-800">Comitted</h3>
-        <p class="flex justify-center">At Saturn Cars, we always look to the future with a vision of progress. This way of seeing things is what
-            It makes you have a purpose and a commitment to society and the environment. And from there “Committed” was
-            born:
-            a series of initiatives of a social and environmental nature, which puts people at the center of everything
-            our efforts.
-        </p>
-        <img src="/src/assets/img/pexels-trace-hudson-2770933-edited.jpg" class="w-full h-auto mt-10 rounded-lg">
+        <div class="p-6 flex flex-col justify-start">
+            <p class="text-sm lg:text-base mt-2">At Saturn Cars, we always look to the future with a vision of progress. This way of seeing things is what
+                It makes you have a purpose and a commitment to society and the environment. And from there “Committed” was
+                born:
+                a series of initiatives of a social and environmental nature, which puts people at the center of everything
+                our efforts.
+            </p>
+        </div>
+        <div class="w-full h-auto mt-4 lg:mt-8 p-6">
+            <img src="/src/assets/img/pexels-trace-hudson-2770933-edited.jpg" class="w-full h-auto mt-10 rounded-lg object-contain">
+        </div>
     </div>
 
+    <div class="border-b border-gray-400 border-solid border-2 mx-20 sm:mx-56 sm:mt-20"></div>
 
-    <div class="flex justify-center mt-64 mb-24">
-        <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">Experience.</h1>
+    <div class="flex justify-center mt-56 mb-24">
+        <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">Experience</h1>
     </div>
     <div class="flex flex-col sm:flex-row justify-center mb-20">
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
@@ -364,7 +371,7 @@ export default {
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Mechanic</h5>
-                    <p class="text-gray-700 text-base mb-4">
+                    <p class="text-gray-700 text-base mb-4 text-center">
                         Some quick example text to build on the card title and make up the bulk of the card's
                         content.
                     </p>
@@ -380,7 +387,7 @@ export default {
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Sports cars</h5>
-                    <p class="text-gray-700 text-base mb-4">
+                    <p class="text-gray-700 text-base mb-4 text-center">
                         Some quick example text to build on the card title and make up the bulk of the card's
                         content.
                     </p>
@@ -396,7 +403,7 @@ export default {
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Renting</h5>
-                    <p class="text-gray-700 text-base mb-4">
+                    <p class="text-gray-700 text-base mb-4 text-center">
                         Some quick example text to build on the card title and make up the bulk of the card's
                         content.
                     </p>
