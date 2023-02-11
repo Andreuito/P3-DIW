@@ -2,44 +2,52 @@
     "cars_cards": [
         {
             "id": 1,
-            "model": "",
-            "image": ""
+            "model": "Ring 1",
+            "type":"Gasoline",
+            "transmision": "Manual",
+            "horse_power": 150,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
 
         {
             "id": 2,
-            "model": "",
-            "image": ""
+            "model": "Ring 2",
+            "type":"Gasoline",
+            "transmision": "Automatic",
+            "horse_power": 210,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 3,
-            "model": "",
-            "image": ""
+            "model": "Ring 3",
+            "type":"Gasoline",
+            "transmision": "Manual",
+            "horse_power": 320,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 4,
-            "model": "",
-            "image": ""
+            "model": "Ring 4",
+            "type":"Diesel",
+            "transmision": "Automatic",
+            "horse_power": 90,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 5,
-            "model": "",
-            "image": ""
+            "model": "Ring 5",
+            "type":"Diesel",
+            "transmision": "Manual",
+            "horse_power": 120,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 6,
-            "model": "",
-            "image": ""
-        },
-        {
-            "id": 7,
-            "model": "",
-            "image": ""
-        },
-        {
-            "id": 8,
-            "model": "",
-            "image": ""
+            "model": "Ring 6",
+            "type":"Electric",
+            "transmision": "Automatic",
+            "horse_power": 70,
+            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         }
     ]
 }
