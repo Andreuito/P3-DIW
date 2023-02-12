@@ -11,130 +11,6 @@ import 'swiper/css/autoplay';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
-
-// script crud
-//get all cars
-/* const url = 'http://localhost:5173/HomeView'
-
-
-window.onload = async () => {
-    refresh_cars()
-}
-
-
-async function refresh_cars(){
-    const allCars = document.getElementById('cars');
-    allCars.innerHTML = ""
-    for (const car of await get_cars()) {
-        allCars.appendChild(build_car(car))
-    }
-}
-
-function build_car(car){
-   const build = document.createElement('div')
-    build.classList.add('car')
-    const img = document.createElement('img')
-    img.src = `img/${car.image}`
-    build.appendChild(img)
-    const info = document.createElement('div')
-    const marca = document.createElement('p')
-    marca.textContent = `Marca: ${car.brand}`
-    const modelo = document.createElement('p')
-    modelo.textContent = `Modelo: ${car.model}`
-    info.appendChild(marca)
-    info.appendChild(modelo)
-    build.appendChild(info)
-   return build
-}
-
-async function get_cars(){
-    const response = await fetch(url) 
-    return await response.json()
-}
-
-async function get_car(){
-    //pilla id
-    const id = document.getElementById('inputId').value
-    const response = await fetch(url + '/' + id)
-    const car = await response.json()
-    const resultado = document.getElementById('resultado')
-    resultado.innerHTML = ""
-
-    //crea el coche en base la id
-    const build = document.createElement('div')
-    build.classList.add('car')
-    const img = document.createElement('img')
-    img.src = `img/${car.image}`
-    build.appendChild(img)
-    const info = document.createElement('div')
-    const marca = document.createElement('p')
-    marca.textContent = `Marca: ${car.brand}`
-    const modelo = document.createElement('p')
-    modelo.textContent = `Modelo: ${car.model}`
-    info.appendChild(marca)
-    info.appendChild(modelo)
-    build.appendChild(info)
-    resultado.appendChild(build)
-}
-
-async function post_car(){
-    const response = await fetch(url)
-    if(response.status === 200){
-        const marca = document.getElementById('addBrand').value
-        const modelo = document.getElementById('addModel').value
-        const imagen = document.getElementById('addImg').value
-
-        if(marca != '' || modelo !='' || imagen!='') {
-            await fetch(url, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    brand: marca,
-                    model: modelo,
-                    image: imagen
-                })
-            })
-            refresh_cars()
-        }
-    }
-}
-
-async function put_car(){
-    const id = document.getElementById('modifyCar-id').value
-    const response = await fetch(url + '/' + id)
-    if(response.status === 200){
-        const modelo = document.getElementById('modifyCar-model').value
-        const data = await response.json()
-        
-        if(id != '' && modelo !=''){
-            data.model = modelo
-            await fetch(url + '/' + id,{
-                method: 'PUT',
-                body: JSON.stringify(data),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            })
-            refresh_cars()
-        }
-    }
-}
-
-async function delete_car(){
-    const id = document.getElementById('inputId-delete').value
-    await fetch (url + '/' + id,{
-        method: 'DELETE'
-    })
-    refresh_cars()
-}
-
-function delete_one_car(){
-    const borrar = document.getElementById('resultado')
-    borrar.innerHTML = ''
-}*/
-
 export default {
     components: {
         Swiper,
@@ -162,19 +38,19 @@ export default {
         @slideChange="onSlideChange">
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white sm:text-black text-7xl font-bold mt-20 mb-96">Saturn Ring 1</p>
+                <p class="text-white sm:text-black text-3xl sm:text-7xl font-bold mt-20 mb-96">Saturn Ring 1</p>
             </div>
             <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white text-7xl font-bold mt-20 mb-auto">Saturn Ring 2</p>
+                <p class="text-white text-3xl sm:text-7xl font-bold mt-20 mb-auto">Saturn Ring 2</p>
             </div>
             <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
-                <p class="text-white text-7xl font-bold mt-20 mb-auto">Saturn Ring 3</p>
+                <p class="text-white text-3xl sm:text-7xl font-bold mt-20 mb-auto">Saturn Ring 3</p>
             </div>
             <img class="" src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited2.jpg" alt="imageCar" />
         </swiper-slide>
@@ -341,8 +217,10 @@ export default {
         </swiper>
     </div>
 
-    <!--title of us flex justify-center text-center items-center flex-col mx-60 my-10 sm:w-full w- h-auto-->
-    <div class="flex flex-col sm:justify-center sm:mx-60 sm:my-10 sm:items-center sm:text-center">
+    <div class="border-b border-gray-400 border-solid border-2 mx-20 mt-20 sm:mx-56 sm:mt-20"></div>
+
+    <!--title of us-->
+    <div class="flex flex-col sm:justify-center sm:mx-60 sm:my-10 sm:items-center text-center">
         <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">About us</h1>
         <h3 class="flex justify-center text-5xl p-10 font-bold text-gray-800">Comitted</h3>
         <div class="p-6 flex flex-col justify-start">
@@ -360,8 +238,8 @@ export default {
 
     <div class="border-b border-gray-400 border-solid border-2 mx-20 sm:mx-56 sm:mt-20"></div>
 
-    <div class="flex justify-center mt-56 mb-24">
-        <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">Experience</h1>
+    <div class="flex justify-center mt-10 mb-24">
+        <h1 class="text-6xl sm:text-7xl p-10 font-bold text-gray-800">Experience</h1>
     </div>
     <div class="flex flex-col sm:flex-row justify-center mb-20">
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">

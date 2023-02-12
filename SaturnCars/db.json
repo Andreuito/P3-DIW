@@ -1,11 +1,11 @@
 {
-    "cars_cards": [
+    "cars": [
         {
             "id": 1,
             "model": "Ring 1",
             "type":"Gasoline",
             "transmision": "Manual",
-            "horse_power": 150,
+            "horse_power": "150 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
@@ -13,7 +13,7 @@
             "model": "Ring 2",
             "type":"Gasoline",
             "transmision": "Automatic",
-            "horse_power": 210,
+            "horse_power": "210 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
@@ -21,7 +21,7 @@
             "model": "Ring 3",
             "type":"Gasoline",
             "transmision": "Manual",
-            "horse_power": 320,
+            "horse_power": "320 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
@@ -29,7 +29,7 @@
             "model": "Ring 4",
             "type":"Diesel",
             "transmision": "Automatic",
-            "horse_power": 90,
+            "horse_power": "100 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
@@ -37,7 +37,7 @@
             "model": "Ring 5",
             "type":"Diesel",
             "transmision": "Manual",
-            "horse_power": 120,
+            "horse_power": "120 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
@@ -45,8 +45,8 @@
             "model": "Ring 6",
             "type":"Electric",
             "transmision": "Automatic",
-            "horse_power": 70,
+            "horse_power": "70 HP",
             "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         }
     ]
-}
+} 
