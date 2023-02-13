@@ -37,12 +37,14 @@ export default {
                     <p class="text-gray-700 text-base mb-4"> Power: {{ item.horse_power }}</p>
                 </div>
                 <div class="mb-5 ml-5">
-                    <button class="button1">
-                        <router-link :to="{ path: '/Renting/' + item.id, params: id = item.id }">Rent me!</router-link>
-                        <div class="arrow-wrapper">
-                            <div class="arrow"></div>
-                        </div>
-                    </button>
+                    <router-link :to="{ path: '/Renting/' + item.id, params: id = item.id }">
+                        <button class="button1"> 
+                            Rent me! 
+                            <div class="arrow-wrapper">
+                                <div class="arrow"></div>
+                            </div>
+                        </button>
+                    </router-link>
                 </div>
             </div>
         </div>

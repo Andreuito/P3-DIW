@@ -11,6 +11,9 @@ import 'swiper/css/autoplay';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
+var url = 'http://localhost:3000/cars'
+var cars = []
+
 export default {
     components: {
         Swiper,
@@ -28,8 +31,10 @@ export default {
             onSwiper,
             onSlideChange,
         };
-    },
-}; 
+    }
+};
+
+
 </script>
 
 <template>
@@ -64,9 +69,9 @@ export default {
     <!-- cards -->
     <div class="flex justify-center">
         <div class="grid gap-4 m-10 sm:m-28 tablet:grid-cols-2 grid-cols-1">
-        
+
             <!-- card-1 -->
-        
+
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -77,7 +82,9 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">
+                        Drive
+                    </button>
                 </div>
             </div>
 
@@ -90,7 +97,7 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -107,7 +114,7 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
             </div>
 
@@ -120,7 +127,7 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -137,7 +144,7 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
             </div>
 
@@ -150,7 +157,7 @@ export default {
                         content is a little bit longer.
                     </p>
                     <button type="button"
-                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                        class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
                     src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
@@ -224,15 +231,19 @@ export default {
         <h1 class="flex justify-center text-7xl p-10 font-bold text-gray-800">About us</h1>
         <h3 class="flex justify-center text-5xl p-10 font-bold text-gray-800">Comitted</h3>
         <div class="p-6 flex flex-col justify-start">
-            <p class="text-sm lg:text-base mt-2">At Saturn Cars, we always look to the future with a vision of progress. This way of seeing things is what
-                It makes you have a purpose and a commitment to society and the environment. And from there “Committed” was
+            <p class="text-sm lg:text-base mt-2">At Saturn Cars, we always look to the future with a vision of progress.
+                This way of seeing things is what
+                It makes you have a purpose and a commitment to society and the environment. And from there “Committed”
+                was
                 born:
-                a series of initiatives of a social and environmental nature, which puts people at the center of everything
+                a series of initiatives of a social and environmental nature, which puts people at the center of
+                everything
                 our efforts.
             </p>
         </div>
         <div class="w-full h-auto mt-4 lg:mt-8 p-6">
-            <img src="@/assets/img/pexels-trace-hudson-2770933-edited.jpg" class="w-full h-auto mt-10 rounded-lg object-contain">
+            <img src="@/assets/img/pexels-trace-hudson-2770933-edited.jpg"
+                class="w-full h-auto mt-10 rounded-lg object-contain">
         </div>
     </div>
 
@@ -257,7 +268,7 @@ export default {
                 </div>
             </div>
         </div>
-        
+
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
