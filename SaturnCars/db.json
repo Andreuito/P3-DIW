@@ -6,7 +6,7 @@
             "type":"Gasoline",
             "transmision": "Manual",
             "horse_power": "150 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "type":"Gasoline",
             "transmision": "Automatic",
             "horse_power": "210 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "type":"Gasoline",
             "transmision": "Manual",
             "horse_power": "320 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "type":"Diesel",
             "transmision": "Automatic",
             "horse_power": "100 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "type":"Diesel",
             "transmision": "Manual",
             "horse_power": "120 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "type":"Electric",
             "transmision": "Automatic",
             "horse_power": "70 HP",
-            "image": "src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+            "image": "/src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg"
         }
     ]
 } 

@@ -16,6 +16,12 @@ const router = createRouter({
       component: () => import('../views/ModelsView.vue')
     },
     {
+      path: '/Renting/:id',
+      name: 'Car',
+      component: () => import('../views/CarView.vue'),
+      props: true
+    },
+    {
       path: '/Login',
       name: 'Login',
       component: () => import('../views/LoginView.vue')

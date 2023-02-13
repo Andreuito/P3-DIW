@@ -26,7 +26,7 @@ export default {
 
     </div>
     <div class="flex flex-col flex-wrap sm:flex-row justify-center mb-20">
-        <div class="flex mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out" v-for="item in cars"
+        <div class="flex mx-10 my-10 hover:scale-95 transition duration-300 ease-in-out" v-for="item in cars"
             :key="item.id">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <img class="rounded-t-lg" :src="item.image" />
@@ -36,14 +36,14 @@ export default {
                     <p class="text-gray-700 text-base mb-4"> Transmision: {{ item.transmision }}</p>
                     <p class="text-gray-700 text-base mb-4"> Power: {{ item.horse_power }}</p>
                 </div>
-                    <div class="mb-5 ml-5">
-                        <button class="button1">
-                            Rent me!
-                            <div class="arrow-wrapper">
-                                <div class="arrow"></div>
-                            </div>
-                        </button>
-                    </div>
+                <div class="mb-5 ml-5">
+                    <button class="button1">
+                        <router-link :to="{ path: '/Renting/' + item.id, params: id = item.id }">Rent me!</router-link>
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

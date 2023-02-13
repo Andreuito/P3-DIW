@@ -40,7 +40,7 @@ export default {
             <div class="absolute text-center w-full">
                 <p class="text-white sm:text-black text-3xl sm:text-7xl font-bold mt-20 mb-96">Saturn Ring 1</p>
             </div>
-            <img class="" src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
+            <img class="" src="@/assets/img/campbell-3ZUsNJhi_Ik-unsplash.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
@@ -196,23 +196,23 @@ export default {
         <swiper :modules="modules" :slides-per-view="1" :autoplay="true" :loop="true" :scrollbar="true"
             @swiper="onSwiper" @slideChange="onSlideChange">
             <swiper-slide> <img src="src/assets/img/campbell-3ZUsNJhi_Ik-unsplash-edited.jpg" alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/hakon-sataoen-qyfco1nfMtg-unsplash-edited.jpg"
                     alt="" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/alex-suprun-A53o1drQS2k-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg"
+            <swiper-slide> <img src="@/assets/img/chris-nguyen-aTX_bRaOZnA-unsplash-edited2.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/dima-panyukov-DwxlhTvC16Q-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/erik-mclean-ZRns2R5azu0-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/josh-berquist-_4sWbzH5fp8-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/kenny-eliason-FcyipqujfGg-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/marek-pospisil-oUBjd22gF6w-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
-            <swiper-slide> <img src="src/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg"
+            <swiper-slide> <img src="@/assets/img/peter-broomfield-m3m-lnR90uM-unsplash-edited.jpg"
                     alt="imageCar" /></swiper-slide>
         </swiper>
     </div>
@@ -232,7 +232,7 @@ export default {
             </p>
         </div>
         <div class="w-full h-auto mt-4 lg:mt-8 p-6">
-            <img src="/src/assets/img/pexels-trace-hudson-2770933-edited.jpg" class="w-full h-auto mt-10 rounded-lg object-contain">
+            <img src="@/assets/img/pexels-trace-hudson-2770933-edited.jpg" class="w-full h-auto mt-10 rounded-lg object-contain">
         </div>
     </div>
 
