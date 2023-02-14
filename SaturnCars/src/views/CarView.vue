@@ -26,14 +26,24 @@ export default {
     <div class="flex justify-center mt-10 mb-10">
         <h1 class= "text-6xl sm:text-7xl p-10 font-bold text-gray-800">Model {{ cars.model }} </h1>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 sm:mb-10 sm:mt-10 sm:ml-10">
-        <img class="rounded-t-lg sm:rounded-lg hover:scale-95 transition duration-300 ease-in-out" :src="cars.image" />
-            <div class="flex flex-col mb-24 p-10">
-                <div class="p-6">
-                    <p class="flex text-gray-700 text-base mb-4 p-6">Combustion: {{ cars.type }}</p>
-                    <p class="flex text-gray-700 text-base mb-4 p-6"> Transmision: {{ cars.transmision }}</p>
-                    <p class="flex text-gray-700 text-base mb-4 p-6"> Power: {{ cars.horse_power }}</p>
-                </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 mx-10 my-10">
+        <img class="rounded-lg hover:scale-95 transition duration-300 ease-in-out" :src="cars.image" alt="CarImage"/>
+        <div class="flex flex-col mb-24 p-10">
+            <h1 class="flex text-5xl p-10 font-bold text-gray-800 justify-center text-center sm:text-start sm:justify-end">
+                Drive and defy your limits
+            </h1>
+            <p class="flex text-gray-700 text-2xl mb-4 p-6">
+                Combustion: {{ cars.type }}<br>
+                Transmision: {{ cars.transmision }}<br>
+                Power: {{ cars.horse_power }} <br>
+                Doors: {{ cars.doors }} 
+            </p>
+            <div class="flex justify-end mr-6">
+                <button class="button">
+                    Wanna try?
+                </button>
             </div>
         </div>
+    </div>
 </template>

@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div class="flex justify-center mt-10 mb-10">
-        <h1 class="text-6xl sm:text-7xl p-10 font-bold text-gray-800">Try our cars</h1>
+        <h1 class="text-6xl sm:text-7xl p-10 font-bold text-gray-800 text-center">Try our cars</h1>
 
     </div>
     <div class="flex flex-col flex-wrap sm:flex-row justify-center mb-20">
@@ -35,6 +35,7 @@ export default {
                     <p class="text-gray-700 text-base mb-4">Combustion: {{ item.type }}</p>
                     <p class="text-gray-700 text-base mb-4"> Transmision: {{ item.transmision }}</p>
                     <p class="text-gray-700 text-base mb-4"> Power: {{ item.horse_power }}</p>
+                    <p class="text-gray-700 text-base mb-4"> Doors: {{ item.doors }}</p>
                 </div>
                 <div class="mb-5 ml-5">
                     <router-link :to="{ path: '/Renting/' + item.id, params: id = item.id }">
