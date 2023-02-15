@@ -51,7 +51,7 @@ export default {
             <div class="absolute text-center w-full">
                 <p class="text-white text-3xl sm:text-7xl font-bold mt-20 mb-auto">Saturn Ring 2</p>
             </div>
-            <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2.jpg" alt="" />
+            <img class="" src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited2-min.jpg" alt="" />
         </swiper-slide>
         <swiper-slide>
             <div class="absolute text-center w-full">
@@ -74,7 +74,7 @@ export default {
 
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 1</h5>
                     <p class="text-gray-700 text-base mb-4">
@@ -100,13 +100,13 @@ export default {
                         class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
             </div>
 
             <!-- card-3 -->
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 3</h5>
                     <p class="text-gray-700 text-base mb-4">
@@ -130,13 +130,13 @@ export default {
                         class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
             </div>
 
             <!-- card-5 -->
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
                 <div class="p-6 flex flex-col justify-start">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Saturn Ring 5</h5>
                     <p class="text-gray-700 text-base mb-4">
@@ -160,7 +160,7 @@ export default {
                         class=" inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out">Drive</button>
                 </div>
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-r-lg"
-                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited.jpg" alt="imageCar" />
+                    src="src/assets/img/ville-kaisla-HNCSCpWrVJA-unsplash-edited-min.jpg" alt="imageCar" />
             </div>
         </div>
     </div>
@@ -242,7 +242,7 @@ export default {
             </p>
         </div>
         <div class="w-full h-auto mt-4 lg:mt-8 p-6">
-            <img src="@/assets/img/pexels-trace-hudson-2770933-edited.jpg"
+            <img src="@/assets/img/pexels-trace-hudson-2770933-edited-min.jpg"
                 class="w-full h-auto mt-10 rounded-lg object-contain">
         </div>
     </div>
@@ -272,7 +272,7 @@ export default {
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="/src/assets/img/pexels-devon-rockola-800629-edited.jpg" alt="" />
+                    <img class="rounded-t-lg" src="/src/assets/img/pexels-devon-rockola-800629-edited-min.jpg" alt="" />
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Sports cars</h5>
@@ -288,7 +288,7 @@ export default {
         <div class="flex justify-center mx-10 my-10 hover:scale-110 transition duration-300 ease-in-out">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="/src/views/RentingView.vue" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                    <img class="rounded-t-lg" src="/src/assets/img/pexels-harrison-haines-2834653-edited2.jpg" alt="" />
+                    <img class="rounded-t-lg" src="/src/assets/img/pexels-harrison-haines-2834653-edited2-min.jpg" alt="" />
                 </a>
                 <div class="p-6">
                     <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">Renting</h5>

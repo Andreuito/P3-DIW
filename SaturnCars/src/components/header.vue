@@ -104,7 +104,7 @@ const navigation = [
         <!-- Navbar -->
 
         <!-- Background image -->
-        <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('../src/assets/img/saturntesla.png');  
+        <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('../src/assets/img/saturntesla-min.png');  
     height: 350px;
   ">
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"

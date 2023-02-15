@@ -1,7 +1,7 @@
 <template>
     <footer class="text-center bg-gray-800 text-white" aria-labelledby="footerHeading">
         <div class="container flex flex-col justify-center items-center px-6 pt-6">
-            <img class="w-96 h-5/6" src="src/assets/img/logoRemaSteredB-removebg-preview.png" alt="Company name">
+            <img class="w-96 h-5/6" src="src/assets/img/logoRemaSteredB-removebg-preview-min.png" alt="Company name">
             <div class="flex justify-center mb-6">
                 <a href="#!" type="button"
                     class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
