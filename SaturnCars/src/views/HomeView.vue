@@ -11,9 +11,6 @@ import 'swiper/css/autoplay';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
-var url = 'http://localhost:3000/cars'
-var cars = []
-
 export default {
     components: {
         Swiper,

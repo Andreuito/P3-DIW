@@ -16,6 +16,11 @@ const router = createRouter({
       component: () => import('../views/ModelsView.vue')
     },
     {
+      path: '/Renting',
+      name: 'Renting',
+      component: () => import('../views/RentingView.vue')
+    },
+    {
       path: '/Renting/:id',
       name: 'Car',
       component: () => import('../views/CarView.vue'),
@@ -30,11 +35,6 @@ const router = createRouter({
       path: '/Register',
       name: 'Register',
       component: () => import('../views/RegisterView.vue')
-    },
-    {
-      path: '/Renting',
-      name: 'Renting',
-      component: () => import('../views/RentingView.vue')
     },
     {
       path: '/ContactUs',
