@@ -79,5 +79,5 @@ export default {
     </div>
 
     <!--cards-->
-    <cards2/>
+    <cards2/> 
 </template>
