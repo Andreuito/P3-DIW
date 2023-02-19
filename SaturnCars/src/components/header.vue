@@ -1,4 +1,4 @@
-<script setup>
+<script>
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
@@ -24,8 +24,32 @@ const navigation = [
         href: '/ContactUs',
         current: false
     },
-
 ]
+
+export default {
+    name: 'Header',
+    components: {
+        Disclosure,
+        DisclosureButton,
+        DisclosurePanel,
+        Menu,
+        MenuButton,
+        MenuItem,
+        MenuItems,
+        Bars3Icon,
+        XMarkIcon
+    },
+    data() {
+        for (let i = 0; i < navigation.length; i++) {
+            if (navigation[i].href == window.location.pathname) {
+                navigation[i].current = true
+            }
+        }
+        return {
+            navigation
+        }
+    }
+}
 </script>
 
 <template>
